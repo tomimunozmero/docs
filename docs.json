@@ -1,55 +1,148 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Merovingian Data",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0F8360",
+    "light": "#16A34A",
+    "dark": "#0C2735"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Soluciones",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Discovery Journey",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "discovery/assessment",
+              "discovery/ai-exploratory-assessment"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Learning Journey",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "learning/data-literacy-workshops",
+              "learning/power-bi-workshops"
+            ]
+          },
+          {
+            "group": "Growth Dashboard",
+            "pages": [
+              "growth/sales-overview",
+              "growth/purchases-overview",
+              "growth/transactions-evolution",
+              "growth/sales-by-channel",
+              "growth/sales-by-store",
+              "growth/distribution-channel",
+              "growth/client-module",
+              "growth/product-module",
+              "growth/profitability",
+              "growth/budget",
+              "growth/inventory",
+              "growth/daypart",
+              "growth/promotions"
+            ]
+          },
+          {
+            "group": "Operations Dashboard",
+            "pages": [
+              "operations/logistics-warehouse",
+              "operations/costs",
+              "operations/shrinkage",
+              "operations/plant-production",
+              "operations/suppliers",
+              "operations/personnel",
+              "operations/collections-billing"
+            ]
+          },
+          {
+            "group": "Finance Dashboard",
+            "pages": [
+              "finance/profit-loss",
+              "finance/cash-flow",
+              "finance/balance-sheet"
+            ]
+          },
+          {
+            "group": "Trading Dashboard",
+            "pages": [
+              "trading/operations-performance",
+              "trading/client-performance",
+              "trading/trader-performance",
+              "trading/pnl-drivers",
+              "trading/buy-sell-volume",
+              "trading/gestion-especies"
+            ]
+          },
+          {
+            "group": "AI & Machine Learning",
+            "pages": [
+              "ai/demand-forecasting",
+              "ai/sales-forecasting",
+              "ai/customer-segmentation",
+              "ai/agents-insights",
+              "ai/ai-agents",
+              "ai/anomaly-detection",
+              "ai/ai-vision",
+              "ai/fraud-detection",
+              "ai/recommendation",
+              "ai/dynamic-pricing",
+              "ai/sentiment-analysis",
+              "ai/predictive-maintenance",
+              "ai/franquicias-location"
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Infraestructura",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Arquitectura de Datos",
             "pages": [
-              "api-reference/introduction"
+              "architecture/design",
+              "architecture/data-warehouse",
+              "architecture/lakehouse",
+              "architecture/cloud-migration"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "ETL & Integración",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "etl/web-data",
+              "etl/rpa",
+              "etl/digitalization",
+              "etl/data-cleaning",
+              "etl/external-db"
+            ]
+          },
+          {
+            "group": "Seguridad y Gobierno de Datos",
+            "pages": [
+              "security/encryption",
+              "security/rbac",
+              "security/policies",
+              "security/frameworks",
+              "security/logging",
+              "security/retention"
+            ]
+          },
+          {
+            "group": "Big Data & Analytics",
+            "pages": [
+              "analytics/social-listening",
+              "analytics/big-data-processing",
+              "analytics/real-time-analytics"
+            ]
+          },
+          {
+            "group": "Funcionalidades Comunes",
+            "pages": [
+              "common/insights-kpis",
+              "common/event-alerts",
+              "common/kpi-email"
             ]
           }
         ]
@@ -58,45 +151,39 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Sitio Web",
+          "href": "https://merovingiandata.com",
+          "icon": "globe"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "LinkedIn",
+          "href": "https://linkedin.com/company/merovingian-data",
+          "icon": "linkedin"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/MER-Azul-Celeste (1).png",
+    "dark": "/MER-Blanco.png"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Contacto",
+        "href": "mailto:info@merovingiandata.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Solicitar Demo",
+      "href": "https://merovingiandata.com/demo"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "linkedin": "https://linkedin.com/company/merovingian-data",
+      "github": "https://github.com/merovingian-data"
     }
   }
 }
